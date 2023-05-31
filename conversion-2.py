@@ -3,6 +3,7 @@ convBinaire = int(input("Entrez le nombre à convertir :"))
 
 resultat = ""
 
+
 while(convBinaire != 0):
     reste = int(convBinaire%2)
     convBinaire = int(convBinaire/2)
